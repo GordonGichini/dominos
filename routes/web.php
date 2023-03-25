@@ -16,8 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/pizzas', function () {
-   // return view('pizzas');
-   // return 'pizzas!';
-   return ['name' => 'veg pizzas', 'base' => 'classic'];
+Route::get('/pizzas', function () { 
+    // get data from db
+    $pizza = ['type' => 'hawaiian', 'base' => 'cheesy crust', 'price' => 10];
+    return view('pizzas', $pizza);
 });
