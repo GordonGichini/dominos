@@ -75,8 +75,7 @@
         </div>
         <div class="content">
             <div class="title m-b-md">
-                DominosPizzas<br />
-                The East's Best Pizzas
+                Pizzas!
             </div>
 
             <div class="links">
