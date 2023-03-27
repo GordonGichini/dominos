@@ -17,8 +17,8 @@
     @endif 
     </div>
     <div class="content">
-    <div class="title m-b-md">
-        DominosPizzas<br />
+        <img src="img\pizza-house.png" alt="domino house logo">
+        <div class="title m-b-md"> 
         The East's Best Pizzas
     </div>
 
