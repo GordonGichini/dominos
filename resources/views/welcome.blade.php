@@ -19,7 +19,9 @@
     <div class="content">
         <img src="img\pizza-house.png" alt="domino house logo">
         <div class="title m-b-md"> 
-        The East's Best Pizzas
+        The East's Best Pizzas 
+        <div>
+            <a href="/pizzas/create">Order a Pizza</a>
     </div>
 
     <div class="links">
