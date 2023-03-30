@@ -20,11 +20,9 @@
         <img src="img\pizza-house.png" alt="domino house logo">
         <div class="title m-b-md"> 
         The East's Best Pizzas 
-        <div>
-            <a href="/pizzas/create">Order a Pizza</a>
     </div>
-
-    <div class="links">
-    </div> 
-
+    <p class="mssg">{{ session('mssg') }}</p>
+    <a href="/pizzas/create">Order a Pizza</a>
+  </div>
+</div> 
 @endsection
