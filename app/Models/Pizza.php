@@ -8,5 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Pizza extends Model
 {
     use HasFactory; 
-    //protected $table = 'some_name';
+    //protected $table = 'some_name'; 
+    protected $casts = [
+        'toppings' => 'array'
+    ];
 }
